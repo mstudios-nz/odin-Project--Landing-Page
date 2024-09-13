@@ -4,25 +4,85 @@ body {
     margin: 0;
 }
 
-main {
-    margin: 30px 100px;
-}
-
-a,
-.text {
+a {
     color: #F9FAF8;
-    font-size: 10px;
+    font-size: 18px;
 }
 
-.heading {
+h1 h2 h3 {
     font-weight: 900;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0px 0px;
+}
+
+h2 {
     font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 5px;
+}
+
+p {
+    font-size: 18px;
+    
+}
+
+q {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    quotes: none;
+    text-align: right;
+    border-color: yellow;
+        border-style: dotted;
+}
+
+cite {
+    font-size: 24px;
+    font-weight: 900;
+   text-align: right;
+}
+
+/* Sections */
+
+.dark {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.light {
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+section {
+    padding: 50px 100px 80px;
+}
+
+/* Buttons*/
+
+button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    border-color: #F9FAF8;
+}
+
+.no-border {
+    border-width: 0;
 }
 
 /* Header & Footer*/
 
 header, footer {
-    padding: 10px 100px;
+    padding: 0px 100px;
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -30,6 +90,7 @@ header, footer {
 header {    
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-links {
@@ -37,7 +98,7 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 header a {
@@ -46,15 +107,50 @@ header a {
 
 footer {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
-/* Box Highlighting
+/* Hero Section */
 
-header > *,
- .header-links > * {
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    gap: 10px;
+}
+
+.hero > * {
+    flex:1;
+}
+
+.hero-content {
+    padding: 18px 0px;
+}
+
+
+/* Highlight Boxes*/
+
+h3 {
+    border-color: aqua;
+    border-style: dashed;
+    
+}
+
+.header-links {
+border-color: red;
+    border-style: dashed;
+}
+
+.hero > * {
 border-color: red;
 border-style: dashed;
 }
 
-*/
+.hero-content > * {
+    border-color: yellow;
+    border-style: dotted;
+}
+
+header, footer, section {
+border-style: dashed;
+}

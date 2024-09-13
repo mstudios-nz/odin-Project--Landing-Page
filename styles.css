@@ -8,7 +8,7 @@ main {
     margin: 30px 100px;
 }
 
-a, 
+a,
 .text {
     color: #F9FAF8;
     font-size: 10px;
@@ -21,10 +21,13 @@ a,
 
 /* Header & Footer*/
 
-header {
+header, footer {
     padding: 10px 100px;
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+header {    
     display: flex;
     justify-content: space-between;
 }
@@ -37,10 +40,13 @@ header {
     gap: 10px;
 }
 
-a {
+header a {
     text-decoration: none;
 }
 
+footer {
+    text-align: center;
+}
 
 /* Box Highlighting
 

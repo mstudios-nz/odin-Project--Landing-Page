@@ -1,0 +1,53 @@
+/* Global Syles */
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 30px 100px;
+}
+
+a, 
+.text {
+    color: #F9FAF8;
+    font-size: 10px;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+/* Header & Footer*/
+
+header {
+    padding: 10px 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Box Highlighting
+
+header > *,
+ .header-links > * {
+border-color: red;
+border-style: dashed;
+}
+
+*/

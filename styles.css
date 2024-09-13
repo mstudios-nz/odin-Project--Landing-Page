@@ -33,19 +33,7 @@ p {
     color: #F9FAF8;
 }
 
-q {
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    quotes: none;
-    text-align: right;
-}
 
-cite {
-    font-size: 24px;
-    font-weight: 900;
-    text-align: right;
-}
 
 section {
     padding: 50px 100px 80px;
@@ -118,25 +106,59 @@ footer {
     text-align: center;
 }
 
+.info p {
+    margin-top: 0;
+}
+
 .info img {
     border-color: #3882F6;
     border-radius: 10px;
     border-style: outset;
-    max-width: 200px;
+    max-width: 170px;
+    min-width: none;
 }
 
 .info-blocks {
+    margin: 0px 100px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 60px;
+    justify-content: space-between;
+
+        border-color: aqua;
+            border-style: dashed;
 }
 
 .info-blocks > * {
-    max-width: 200px;
+    max-width: 170px;
     flex: 1;
+    border-color: chartreuse;
+    border-style: dashed;
 }
 
+/* Quote Section*/
+
+.quote {
+    padding: 100px 200px;
+    background-color: #E5E7EB;
+    border-color: tomato;
+}
+
+.q {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    border-color: aquamarine;
+    border-style: dashed;
+  
+     
+}
+
+.cite {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+}
 
 
 /* Highlight Boxes*/

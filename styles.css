@@ -9,7 +9,8 @@ a {
     font-size: 18px;
 }
 
-h1 h2 h3 {
+h1, h2, h3 {
+    color: #F9FAF8;
     font-weight: 900;
 }
 
@@ -29,7 +30,7 @@ h3 {
 
 p {
     font-size: 18px;
-    
+    color: #F9FAF8;
 }
 
 q {
@@ -38,26 +39,12 @@ q {
     font-style: italic;
     quotes: none;
     text-align: right;
-    border-color: yellow;
-        border-style: dotted;
 }
 
 cite {
     font-size: 24px;
     font-weight: 900;
-   text-align: right;
-}
-
-/* Sections */
-
-.dark {
-    background-color: #1F2937;
-    color: #F9FAF8;
-}
-
-.light {
-    background-color: #F9FAF8;
-    color: #1F2937;
+    text-align: right;
 }
 
 section {
@@ -84,7 +71,6 @@ button {
 header, footer {
     padding: 0px 100px;
     background-color: #1F2937;
-    color: #F9FAF8;
 }
 
 header {    
@@ -114,7 +100,6 @@ footer {
 
 .hero {
     background-color: #1F2937;
-    color: #F9FAF8;
     display: flex;
     gap: 10px;
 }
@@ -126,6 +111,32 @@ footer {
 .hero-content {
     padding: 18px 0px;
 }
+
+/* Info Section*/
+.info h2, .info p {
+    color: #1F2937;
+    text-align: center;
+}
+
+.info img {
+    border-color: #3882F6;
+    border-radius: 10px;
+    border-style: outset;
+    max-width: 200px;
+}
+
+.info-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info-blocks > * {
+    max-width: 200px;
+    flex: 1;
+}
+
 
 
 /* Highlight Boxes*/
@@ -146,11 +157,12 @@ border-color: red;
 border-style: dashed;
 }
 
-.hero-content > * {
-    border-color: yellow;
-    border-style: dotted;
-}
 
 header, footer, section {
 border-style: dashed;
+}
+
+q {
+        border-color: yellow;
+            border-style: dotted;
 }

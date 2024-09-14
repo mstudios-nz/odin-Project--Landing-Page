@@ -33,8 +33,6 @@ p {
     color: #F9FAF8;
 }
 
-
-
 section {
     padding: 50px 100px 80px;
 }
@@ -48,6 +46,7 @@ button {
     color: #F9FAF8;
     font-weight: 600;
     border-color: #F9FAF8;
+    border-style: solid;
 }
 
 .no-border {
@@ -89,7 +88,7 @@ footer {
 .hero {
     background-color: #1F2937;
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 
 .hero > * {
@@ -114,6 +113,7 @@ footer {
     border-color: #3882F6;
     border-radius: 10px;
     border-style: outset;
+    border-style: solid;
     max-width: 170px;
     min-width: none;
 }
@@ -122,16 +122,11 @@ footer {
     margin: 0px 100px;
     display: flex;
     justify-content: space-between;
-
-        border-color: aqua;
-            border-style: dashed;
 }
 
 .info-blocks > * {
     max-width: 170px;
     flex: 1;
-    border-color: chartreuse;
-    border-style: dashed;
 }
 
 /* Quote Section*/
@@ -147,10 +142,6 @@ footer {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    border-color: aquamarine;
-    border-style: dashed;
-  
-     
 }
 
 .cite {
@@ -160,31 +151,32 @@ footer {
     text-align: right;
 }
 
+/* CTA Section*/
 
-/* Highlight Boxes*/
-
-h3 {
-    border-color: aqua;
-    border-style: dashed;
-    
+.cta {
+    padding: 100px 100px;
+}
+.modal {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
 }
 
-.header-links {
-border-color: red;
-    border-style: dashed;
+.modal-text {
+    flex: 2;
+    padding: 50px 100px;
 }
 
-.hero > * {
-border-color: red;
-border-style: dashed;
+.modal-text h3, .modal-text p {
+    padding: 0;
+    margin: 5px;
+
 }
 
-
-header, footer, section {
-border-style: dashed;
+.modal-button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-q {
-        border-color: yellow;
-            border-style: dotted;
-}
